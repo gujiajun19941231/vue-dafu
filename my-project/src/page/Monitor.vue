@@ -1,5 +1,6 @@
 <template>
   <div class="monitor">
+    实时工况
       <iframe class="iframe" src="https://console.dafudata.com/webscada/index" frameborder="0"></iframe>
   </div>
 </template>
