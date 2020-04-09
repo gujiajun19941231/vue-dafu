@@ -7,6 +7,8 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import { Button, Select } from 'element-ui';
 import BaiduMap from 'vue-baidu-map'
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 Vue.use(BaiduMap, {
   // ak 是在百度地图开发者平台申请的密钥 详见 http://lbsyun.baidu.com/apiconsole/key */

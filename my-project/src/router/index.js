@@ -5,7 +5,8 @@ import Login  from '@/page/Login';
 import Home from '@/page/Home';
 import Map from '@/page/Map';
 import Monitor from '@/page/Monitor';
-import Alarm from '@/page/Alarm'
+import Alarm from '@/page/Alarm';
+import TimeShare from '@/page/TimeShare';
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,9 @@ export default new Router({
       },{
         path:'/alarm',
         component:Alarm
+      },{
+        path:'/timeShare',
+        component:TimeShare
       }]
     },
   ]

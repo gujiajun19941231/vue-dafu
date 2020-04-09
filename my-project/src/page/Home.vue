@@ -22,6 +22,18 @@
             <i class="el-icon-setting"></i>
             <span slot="title">设备告警</span>
           </el-menu-item>
+          <el-submenu index="1">
+            <template slot="title">
+              <i class="el-icon-location"></i>
+              <span>导航一</span>
+            </template>
+            <el-menu-item-group>
+              <el-menu-item index="/timeShare">能耗汇总</el-menu-item>
+              <el-menu-item index="1-2">同比环比</el-menu-item>
+              <el-menu-item index="1-1">评估曲线</el-menu-item>
+              <el-menu-item index="1-2">趋势曲线</el-menu-item>
+            </el-menu-item-group>
+          </el-submenu>
         </el-menu>
       </el-aside>
 
